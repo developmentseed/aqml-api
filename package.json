@@ -1,0 +1,31 @@
+{
+  "name": "aqml-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developmentseed/aqml-api.git"
+  },
+  "keywords": [
+    "aqml"
+  ],
+  "author": "sethvincent <sethvincent@gmail.com> (https://sethvincent.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/developmentseed/aqml-api/issues"
+  },
+  "homepage": "https://github.com/developmentseed/aqml-api#readme",
+  "dependencies": {
+    "@cumulus/api": "^1.5.1",
+    "@cumulus/deployment": "^1.5.1"
+  },
+  "devDependencies": {
+    "kes": "^2.1.2",
+    "standard": "^11.0.1",
+    "tape": "^4.9.0"
+  }
+}
